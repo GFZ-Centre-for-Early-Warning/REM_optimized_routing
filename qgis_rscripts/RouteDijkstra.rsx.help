@@ -1,0 +1,46 @@
+(dp0
+S'ALG_DESC'
+p1
+VThis function solves the shortest path problem on a routable network with non-negative edge path costs. The function takes an ordered list of stops to be visited and computes the shortest path through all the stops.\u000a\u000aExternal dependencies: postgres, postgis 2.0+, pgrouting 2.0+, pgr_customfunctions.sql
+p2
+sS'db_name'
+p3
+Vdatabase name
+p4
+sS'db_col_cost'
+p5
+Vdatabase column of the streets table that holds the costs
+p6
+sS'ALG_CREATOR'
+p7
+VMarc Wieland - mwieland(at)gfz-potsdam.de
+p8
+sS'db_tbl_streets'
+p9
+Vdatabase table that holds the routable street network
+p10
+sS'db_user'
+p11
+Vdatabase user
+p12
+sS'db_host'
+p13
+Vdatabase host name
+p14
+sS'ALG_HELP_CREATOR'
+p15
+VMarc Wieland - mwieland(at)gfz-potsdam.de
+p16
+sS'db_tbl_stops'
+p17
+Vdatabase table that holds the ordered route stops
+p18
+sS'db_schema'
+p19
+Vdatabase schema
+p20
+sS'db_pw'
+p21
+Vdatabase password
+p22
+s.

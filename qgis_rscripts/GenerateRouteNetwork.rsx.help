@@ -1,0 +1,38 @@
+(dp0
+S'ALG_DESC'
+p1
+VThis function generates a routable street network from line vector data such as the data provided by OpenStreetMap.\u000a\u000aExternal dependencies: postgres, postgis 2.0+, pgrouting 2.0+, pgr_customfunctions.sql
+p2
+sS'db_name'
+p3
+Vdatabase name
+p4
+sS'ALG_CREATOR'
+p5
+VMarc Wieland - mwieland(at)gfz-potsdam.de
+p6
+sS'db_tbl_streets'
+p7
+Vdatabase table that holds the street data
+p8
+sS'db_user'
+p9
+Vdatabase user name
+p10
+sS'db_host'
+p11
+Vdatabase host name
+p12
+sS'ALG_HELP_CREATOR'
+p13
+VMarc Wieland - mwieland(at)gfz-potsdam.de
+p14
+sS'db_schema'
+p15
+Vdatabase schema
+p16
+sS'db_pw'
+p17
+Vdatabase password
+p18
+s.

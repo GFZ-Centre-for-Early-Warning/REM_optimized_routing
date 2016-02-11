@@ -1,0 +1,46 @@
+(dp0
+S'ALG_DESC'
+p1
+VThis function generates a defined number of randomly selected route stops from a set of sample points.\u000a\u000aExternal dependencies: postgres, postgis 2.0+, pgrouting 2.0+, pgr_customfunctions.sql
+p2
+sS'db_tbl_street_vertices'
+p3
+Vdatabase table that holds the vertices of the routable streetnetwork (generated with GenerateRouteNetwork function)
+p4
+sS'db_user'
+p5
+Vdatabase user
+p6
+sS'ALG_CREATOR'
+p7
+VMarc Wieland - mwieland(at)gfz-potsdam.de
+p8
+sS'db_tbl_samppts'
+p9
+Vdatabase table that holds the sample points
+p10
+sS'stops_count'
+p11
+Vnumber of route stops to be selected from the sample points
+p12
+sS'db_name'
+p13
+Vdatabase name
+p14
+sS'db_host'
+p15
+Vdatabase host name
+p16
+sS'ALG_HELP_CREATOR'
+p17
+VMarc Wieland - mwieland(at)gfz-potsdam.de
+p18
+sS'db_schema'
+p19
+Vdatabase schema
+p20
+sS'db_pw'
+p21
+Vdatabase password
+p22
+s.

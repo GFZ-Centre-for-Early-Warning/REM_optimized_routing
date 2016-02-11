@@ -1,0 +1,58 @@
+(dp0
+S'ALG_DESC'
+p1
+VThis function orders route stops by solving the Travelling Salesman Problem (TSP). The cost factor to be optimized is calculated on the network itself (e.g. length of street segments, time to travel street segment, etc.) and can be defined as input to the function. The costs need to be calculated beforehand on the database level and be provided to the function as a database column. \u000a\u000aExternal dependencies: postgres, postgis 2.0+, pgrouting 2.0+, pgr_customfunctions.sql
+p2
+sS'db_name'
+p3
+Vdatabase name
+p4
+sS'db_col_cost'
+p5
+Vdatabase column of the streets table that holds the costs
+p6
+sS'ALG_CREATOR'
+p7
+VMarc Wieland - mwieland(at)gfz-potsdam.de
+p8
+sS'db_tbl_stops'
+p9
+Vdatabase table that holds the route stops
+p10
+sS'start_id'
+p11
+Vid of the route stop from where to start the route
+p12
+sS'db_tbl_streets'
+p13
+Vdatabase table that holds the routable street network
+p14
+sS'db_user'
+p15
+Vdatabase user
+p16
+sS'db_host'
+p17
+Vdatabase host name
+p18
+sS'ALG_HELP_CREATOR'
+p19
+VMarc Wieland - mwieland(at)gfz-potsdam.de
+p20
+sS'stop_id'
+p21
+Vid of the route stop where to stop the route (will only be used if "loop" is set to "No")
+p22
+sS'db_schema'
+p23
+Vdatabase schema
+p24
+sS'loop'
+p25
+Vdefines the type of the TSP solver\u000a\u000aYes: the TSP will be solved starting from the identified start id of the route stops and the stop id will be automatically chosen closest to the start id. this way the resulting route is a loop.\u000a\u000aNo: the TSP will be solved starting from the identified start id of the route stops to the identified stop id.
+p26
+sS'db_pw'
+p27
+Vdatabase password
+p28
+s.
